@@ -1,0 +1,187 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  overflow-x: hidden;
+}
+* {
+  scrollbar-width: auto;
+  scrollbar-color: #afb2bf;
+}
+*::-webkit-scrollbar {
+  width: 4px;
+}
+*::-webkit-scrollbar-track {
+  background: #000814;
+}
+*::-webkit-scrollbar-thumb {
+  background-color: #afb2bf;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar {
+  background-color: transparent;
+  width: 4px;
+}
+
+/* .navVisible {
+  display: none;
+} */
+
+.btn1 {
+  box-shadow: 0px -1px 0px 0px rgba(255, 255, 255, 0.18) inset;
+}
+
+.CTAButton {
+  box-shadow: -1px -1px 0px 0px rgba(255, 255, 255, 0.18) inset;
+}
+
+.CTAButton:hover {
+  box-shadow: none;
+  transition: all;
+  transition-duration: 200ms;
+}
+
+.codeBlockBg {
+  border: 2px solid rgba(255, 255, 255, 0.22);
+  background: linear-gradient(
+    112deg,
+    rgba(14, 26, 45, 0.24) -1.4%,
+    rgba(17, 30, 50, 0.38) 104.96%
+  );
+  border-image-slice: 1;
+  border-image-source: linear-gradient(to right bottom, #ffffff38, #ffffff00);
+  backdrop-filter: blur(26px);
+}
+
+.homepage_bg {
+  background-image: url("./assets/Images/bghome.svg");
+}
+
+/* Need to verify  */
+.spinner {
+  width: 11.2px;
+  height: 11.2px;
+  border-radius: 11.2px;
+  box-shadow: 28px 0px 0 0 rgba(71, 75, 255, 0.2),
+    22.7px 16.5px 0 0 rgba(71, 75, 255, 0.4),
+    8.68px 26.6px 0 0 rgba(71, 75, 255, 0.6),
+    -8.68px 26.6px 0 0 rgba(71, 75, 255, 0.8), -22.7px 16.5px 0 0 #474bff;
+  animation: spinner-b87k6z 1s infinite linear;
+}
+
+@keyframes spinner-b87k6z {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="file"] {
+  display: none;
+}
+
+#slide {
+  position: absolute;
+  right: -250px;
+  z-index: 500;
+  -webkit-animation: slide 1s forwards;
+  animation: slide 1s forwards;
+}
+
+@-webkit-keyframes slide {
+  100% {
+    right: -30px;
+  }
+}
+
+@keyframes slide {
+  100% {
+    right: -30px;
+  }
+}
+
+#slide1 {
+  position: absolute;
+  right: -30px;
+  z-index: 500;
+  -webkit-animation: slide 1s forwards;
+  animation: slide1 1s forwards;
+}
+
+@-webkit-keyframes slide1 {
+  100% {
+    right: -350px;
+  }
+}
+
+@keyframes slide1 {
+  100% {
+    right: -350px;
+  }
+}
+
+.dashSideBar {
+  position: absolute;
+  height: 100%;
+  left: -100%;
+  z-index: 100;
+  -webkit-animation: dashSideBar 1s forwards;
+  animation: dashSideBar 1s forwards;
+}
+@-webkit-keyframes dashSideBar {
+  100% {
+    left: 0px;
+  }
+}
+
+@keyframes dashSideBar {
+  100% {
+    left: 0px;
+  }
+}
+.dashSideBar1 {
+  position: absolute;
+  height: 100%;
+  left: 0px;
+  z-index: 100;
+  -webkit-animation: dashSideBar1 2s forwards;
+  animation: dashSideBar1 2s forwards;
+}
+@-webkit-keyframes dashSideBar1 {
+  100% {
+    left: -100%;
+  }
+}
+
+@keyframes dashSideBar1 {
+  100% {
+    left: -100%;
+  }
+}
+
+/* .hambRotate {
+  transform: rotate(360deg);
+} */
+
+.hambRotate {
+  /* Apply a smooth transition to the rotation over 1 second */
+  transition: transform 3s ease-in-out;
+}
+
+/* Hover effect to rotate the element on mouse hover */
+.hambRotate:hover {
+  transform: rotate(180deg);
+}
