@@ -20,7 +20,7 @@ The StudyNotion ed-tech platform follows a client-server architecture with the f
 - **Back-end**: Developed with NodeJS and ExpressJS, it handles user authentication, course management, and more.
 - **Database**: Utilizes MongoDB as a NoSQL database to store course content, user data, and other relevant information.
 
-![System Architecture Diagram](https://github.com/yashsarode45/StudyNotion-Mega-Project/assets/65209607/3a154827-641d-4269-b662-203afcfd7654)
+![System Architecture Diagram](https://github.com/AmanGarg2002/StudyNotion/blob/main/src/assets/Images/schema_model.JPG)
 
 ---
 
@@ -90,6 +90,7 @@ StudyNotion's API follows the REST architectural style, implemented using Node.j
 - `POST /api/courses/:id/rate`: Add a course rating (out of 5).
 
 Sample API requests and responses:
+
 - `GET /api/courses`: Get all courses
 - Response: A list of all courses in the database
 - `GET /api/courses/:id`: Get a single course by ID
@@ -119,5 +120,3 @@ This infrastructure ensures scalability, security, and reliability.
 ---
 
 Thank you for using StudyNotion!
-
-
