@@ -40,7 +40,7 @@ exports.resetLink = (url) => {
       </head>
       <body>
         <div class="container">
-          <a href="https://study-notion-iota-beryl.vercel.app/">
+          <a href="https://study-notion-platform.vercel.app/">
             <img src="https://i.ibb.co/7Xyj3PC/logo.png" alt="Logo" class="logo" />
           </a>
           <div class="Headingotp">Password Reset Link</div>
