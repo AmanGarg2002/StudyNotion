@@ -34,7 +34,7 @@ exports.resetPasswordToken = async (req, res) => {
       { new: true }
     );
 
-    const url = `http://localhost:3000/update-password/${token}`;
+    const url = `https://study-notion-iota-beryl.vercel.app/update-password/${token}`;
 
     await mailSender(email, "Password Reset Link", resetLink(url));
 

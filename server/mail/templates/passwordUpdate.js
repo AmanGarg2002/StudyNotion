@@ -43,7 +43,7 @@ exports.passwordChangeTemplate = (name, email) => {
       </head>
       <body>
         <div class="container">
-          <a href="">
+          <a href="https://study-notion-iota-beryl.vercel.app/">
             <img src="https://i.ibb.co/7Xyj3PC/logo.png" alt="Logo" class="logo" />
           </a>
           <div class="Headingotp">Password Update Confirmation</div>

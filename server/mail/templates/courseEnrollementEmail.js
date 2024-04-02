@@ -1,4 +1,4 @@
-exports.courseEnrolled = (courseName,name) => {
+exports.courseEnrolled = (courseName, name) => {
   return `
     <!DOCTYPE html>
     <html lang="en">
@@ -55,7 +55,7 @@ exports.courseEnrolled = (courseName,name) => {
       </head>
       <body>
         <div class="container">
-          <a href="">
+          <a href="https://study-notion-iota-beryl.vercel.app/">
             <img src="https://i.ibb.co/7Xyj3PC/logo.png" alt="Logo" class="logo" />
           </a>
           <div class="Headingotp">Course Registration Confirmation</div>
@@ -67,7 +67,7 @@ exports.courseEnrolled = (courseName,name) => {
             <p>
             Please log in to your learning dashboard to access the course materials and start your learning journey.
             </p>
-            <a class="cta" href="">Go to Dashboard</a>
+            <a class="cta" href="https://study-notion-iota-beryl.vercel.app/dashboard/enrolled-courses">Go to Dashboard</a>
           </div>
           <div class="support">
             If you have any questions or need assistance, please feel free to reach
