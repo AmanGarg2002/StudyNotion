@@ -199,8 +199,7 @@ const Footer = () => {
           })}
         </div>
         <div className=" text-base lg:text-[14px] font-medium text-richblack-300">
-          Made with <span className=" text-pink-200">♥</span> Aman Garg © 2024
-          StudyNotion
+          Made with <span className=" text-pink-200">♥</span> © 2024 StudyNotion
         </div>
       </div>
     </div>
